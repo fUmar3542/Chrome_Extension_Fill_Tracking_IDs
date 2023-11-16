@@ -2,8 +2,12 @@
   "manifest_version": 3,
   "name": "Fill Tracking IDs",
   "version": "1.0",
-  "description": "Fill out tracking ids on a webpage.",
-  "permissions": ["activeTab"],
+  "description": "Fill out tracking IDs on a webpage.",
+  "permissions": [
+    "activeTab",
+    "identity",
+    "storage"
+  ],
   "background": {
     "service_worker": "background.js"
   },
